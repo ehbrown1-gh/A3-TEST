@@ -1,0 +1,119 @@
+main {
+    background-color: #bad7dd;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title,
+h1,
+p,
+li,
+#score-text {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 15px;
+}
+
+.rules-box {
+    width: min(600px, 90%);
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.submit-score  {
+    width: min(600px, 90%);
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.rules-box,
+.submit-score,
+.title {
+    font-size: 30px;
+    color: rgb(13, 62, 78);
+}
+
+.data-box {
+    width: min(1000px, 90%);
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+#score-form {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+#game-box {
+    width: min(900px, 95%);
+    margin: 30px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#game-container {
+    width: min(800px, 100%);
+    aspect-ratio: 800 / 500;
+    margin: 0 auto;
+    border: 5px solid black;
+    background: lightblue;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#game-container canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#score-text,
+#timer-text {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    margin: 15px 0;
+}
+
+#reset-button {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    font-family: "Pixelify Sans", sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 760px;
+}
+
+.leaderboard {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding-left: 28px;
+    display: grid;
+    gap: 8px;
+    font-size: 18px;
+}

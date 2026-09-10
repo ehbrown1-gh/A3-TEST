@@ -1,0 +1,15 @@
+{
+  "name": "slingshot-game",
+  "version": "1.0.0",
+  "description": "Slingshot game with server-side leaderboard and comments",
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mime": "^2.4.4"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
