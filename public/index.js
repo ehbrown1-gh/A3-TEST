@@ -64,6 +64,8 @@ async function sendEntry(entry) {
     renderResults(data);
 }
 
+scoreForm.addEventListener("submit", submitScore);
+
 async function submitScore(event) {
     event.preventDefault();
 
@@ -75,7 +77,7 @@ async function submitScore(event) {
         });
 
         scoreForm.reset();
-        document.querySelector("#score-input").value = score;
+        document.querySelector("#score-input").value = 0;
         alert("Your score was added to the leaderboard!");
     } catch (error) {
         alert(error.message);
